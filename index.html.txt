@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aadhyan Koilada | Personal Portfolio</title>
+    <meta name="description" content="Personal portfolio of Aadhyan Koilada – basketball player, football enthusiast, LEGO builder, and coder from Coppell, Texas.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Botanical Decorations - Left Side -->
+    <div class="plant-decoration plant-left">
+        <svg class="plant-svg plant-left-1" viewBox="0 0 260 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Main stem -->
+            <path d="M130 800 Q110 700 80 580 Q50 460 90 340 Q110 280 95 200 Q85 130 105 60 Q110 30 108 10" stroke="#8a9a7b" stroke-width="2.5" fill="none" opacity="0.5"/>
+            <!-- Secondary vine -->
+            <path d="M140 800 Q130 680 100 550 Q80 440 110 330 Q125 270 115 190" stroke="#a8b89a" stroke-width="1.5" fill="none" opacity="0.35"/>
+            <!-- Leaves -->
+            <ellipse cx="65" cy="140" rx="40" ry="65" fill="#c5d5b0" opacity="0.3" transform="rotate(-25 65 140)"/>
+            <ellipse cx="120" cy="90" rx="35" ry="55" fill="#d4e4c4" opacity="0.25" transform="rotate(18 120 90)"/>
+            <ellipse cx="50" cy="250" rx="45" ry="70" fill="#b8cca0" opacity="0.25" transform="rotate(-32 50 250)"/>
+            <ellipse cx="105" cy="200" rx="32" ry="50" fill="#c5d5b0" opacity="0.2" transform="rotate(12 105 200)"/>
+            <ellipse cx="40" cy="370" rx="42" ry="65" fill="#d4e4c4" opacity="0.22" transform="rotate(-28 40 370)"/>
+            <ellipse cx="100" cy="320" rx="38" ry="55" fill="#c5d5b0" opacity="0.2" transform="rotate(15 100 320)"/>
+            <ellipse cx="70" cy="460" rx="36" ry="55" fill="#b8cca0" opacity="0.18" transform="rotate(-18 70 460)"/>
+            <ellipse cx="110" cy="420" rx="30" ry="48" fill="#d4e4c4" opacity="0.2" transform="rotate(22 110 420)"/>
+            <ellipse cx="55" cy="560" rx="38" ry="58" fill="#c5d5b0" opacity="0.2" transform="rotate(-22 55 560)"/>
+            <ellipse cx="95" cy="520" rx="28" ry="42" fill="#b8cca0" opacity="0.15" transform="rotate(10 95 520)"/>
+            <ellipse cx="80" cy="650" rx="34" ry="52" fill="#d4e4c4" opacity="0.18" transform="rotate(-15 80 650)"/>
+            <!-- Small accent dots -->
+            <circle cx="90" cy="60" r="5" fill="#c5d5b0" opacity="0.3"/>
+            <circle cx="55" cy="310" r="4" fill="#b8cca0" opacity="0.25"/>
+            <circle cx="100" cy="480" r="3" fill="#d4e4c4" opacity="0.2"/>
+            <circle cx="65" cy="600" r="4" fill="#c5d5b0" opacity="0.22"/>
+        </svg>
+        <svg class="plant-svg plant-left-2" viewBox="0 0 200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M110 700 Q95 580 115 450 Q130 370 108 270 Q90 180 110 90 Q115 50 112 20" stroke="#a8b89a" stroke-width="1.8" fill="none" opacity="0.4"/>
+            <ellipse cx="130" cy="120" rx="35" ry="55" fill="#d4e4c4" opacity="0.22" transform="rotate(28 130 120)"/>
+            <ellipse cx="80" cy="200" rx="40" ry="60" fill="#c5d5b0" opacity="0.2" transform="rotate(-22 80 200)"/>
+            <ellipse cx="120" cy="300" rx="32" ry="50" fill="#b8cca0" opacity="0.18" transform="rotate(15 120 300)"/>
+            <ellipse cx="75" cy="380" rx="38" ry="55" fill="#d4e4c4" opacity="0.16" transform="rotate(-20 75 380)"/>
+            <ellipse cx="110" cy="480" rx="30" ry="45" fill="#c5d5b0" opacity="0.15" transform="rotate(18 110 480)"/>
+            <ellipse cx="85" cy="560" rx="35" ry="50" fill="#b8cca0" opacity="0.14" transform="rotate(-12 85 560)"/>
+            <path d="M60 620 Q35 560 65 500" stroke="#c5d5b0" stroke-width="1" fill="none" opacity="0.3"/>
+            <ellipse cx="45" cy="540" rx="22" ry="38" fill="#d4e4c4" opacity="0.12" transform="rotate(-28 45 540)"/>
+        </svg>
+        <svg class="plant-svg plant-left-3" viewBox="0 0 120 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M60 400 Q50 320 65 240 Q75 180 60 120 Q55 80 62 40" stroke="#c5d5b0" stroke-width="1.2" fill="none" opacity="0.3"/>
+            <ellipse cx="75" cy="100" rx="25" ry="40" fill="#d4e4c4" opacity="0.18" transform="rotate(20 75 100)"/>
+            <ellipse cx="45" cy="180" rx="28" ry="42" fill="#b8cca0" opacity="0.15" transform="rotate(-18 45 180)"/>
+            <ellipse cx="70" cy="270" rx="22" ry="35" fill="#c5d5b0" opacity="0.14" transform="rotate(14 70 270)"/>
+            <ellipse cx="50" cy="340" rx="25" ry="38" fill="#d4e4c4" opacity="0.12" transform="rotate(-10 50 340)"/>
+        </svg>
+    </div>
+
+    <!-- Botanical Decorations - Right Side -->
+    <div class="plant-decoration plant-right">
+        <svg class="plant-svg plant-right-1" viewBox="0 0 260 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M130 800 Q150 700 180 580 Q210 460 170 340 Q150 280 165 200 Q175 130 155 60 Q150 30 152 10" stroke="#8a9a7b" stroke-width="2.5" fill="none" opacity="0.5"/>
+            <path d="M120 800 Q130 680 160 550 Q180 440 150 330 Q135 270 145 190" stroke="#a8b89a" stroke-width="1.5" fill="none" opacity="0.35"/>
+            <ellipse cx="195" cy="140" rx="40" ry="65" fill="#c5d5b0" opacity="0.3" transform="rotate(25 195 140)"/>
+            <ellipse cx="140" cy="90" rx="35" ry="55" fill="#d4e4c4" opacity="0.25" transform="rotate(-18 140 90)"/>
+            <ellipse cx="210" cy="250" rx="45" ry="70" fill="#b8cca0" opacity="0.25" transform="rotate(32 210 250)"/>
+            <ellipse cx="155" cy="200" rx="32" ry="50" fill="#c5d5b0" opacity="0.2" transform="rotate(-12 155 200)"/>
+            <ellipse cx="220" cy="370" rx="42" ry="65" fill="#d4e4c4" opacity="0.22" transform="rotate(28 220 370)"/>
+            <ellipse cx="160" cy="320" rx="38" ry="55" fill="#c5d5b0" opacity="0.2" transform="rotate(-15 160 320)"/>
+            <ellipse cx="190" cy="460" rx="36" ry="55" fill="#b8cca0" opacity="0.18" transform="rotate(18 190 460)"/>
+            <ellipse cx="150" cy="420" rx="30" ry="48" fill="#d4e4c4" opacity="0.2" transform="rotate(-22 150 420)"/>
+            <ellipse cx="205" cy="560" rx="38" ry="58" fill="#c5d5b0" opacity="0.2" transform="rotate(22 205 560)"/>
+            <ellipse cx="165" cy="520" rx="28" ry="42" fill="#b8cca0" opacity="0.15" transform="rotate(-10 165 520)"/>
+            <ellipse cx="180" cy="650" rx="34" ry="52" fill="#d4e4c4" opacity="0.18" transform="rotate(15 180 650)"/>
+            <circle cx="170" cy="60" r="5" fill="#c5d5b0" opacity="0.3"/>
+            <circle cx="205" cy="310" r="4" fill="#b8cca0" opacity="0.25"/>
+            <circle cx="160" cy="480" r="3" fill="#d4e4c4" opacity="0.2"/>
+            <circle cx="195" cy="600" r="4" fill="#c5d5b0" opacity="0.22"/>
+        </svg>
+        <svg class="plant-svg plant-right-2" viewBox="0 0 200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M90 700 Q105 580 85 450 Q70 370 92 270 Q110 180 90 90 Q85 50 88 20" stroke="#a8b89a" stroke-width="1.8" fill="none" opacity="0.4"/>
+            <ellipse cx="70" cy="120" rx="35" ry="55" fill="#d4e4c4" opacity="0.22" transform="rotate(-28 70 120)"/>
+            <ellipse cx="120" cy="200" rx="40" ry="60" fill="#c5d5b0" opacity="0.2" transform="rotate(22 120 200)"/>
+            <ellipse cx="80" cy="300" rx="32" ry="50" fill="#b8cca0" opacity="0.18" transform="rotate(-15 80 300)"/>
+            <ellipse cx="125" cy="380" rx="38" ry="55" fill="#d4e4c4" opacity="0.16" transform="rotate(20 125 380)"/>
+            <ellipse cx="90" cy="480" rx="30" ry="45" fill="#c5d5b0" opacity="0.15" transform="rotate(-18 90 480)"/>
+            <ellipse cx="115" cy="560" rx="35" ry="50" fill="#b8cca0" opacity="0.14" transform="rotate(12 115 560)"/>
+            <path d="M140 620 Q165 560 135 500" stroke="#c5d5b0" stroke-width="1" fill="none" opacity="0.3"/>
+            <ellipse cx="155" cy="540" rx="22" ry="38" fill="#d4e4c4" opacity="0.12" transform="rotate(28 155 540)"/>
+        </svg>
+        <svg class="plant-svg plant-right-3" viewBox="0 0 120 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M60 400 Q70 320 55 240 Q45 180 60 120 Q65 80 58 40" stroke="#c5d5b0" stroke-width="1.2" fill="none" opacity="0.3"/>
+            <ellipse cx="45" cy="100" rx="25" ry="40" fill="#d4e4c4" opacity="0.18" transform="rotate(-20 45 100)"/>
+            <ellipse cx="75" cy="180" rx="28" ry="42" fill="#b8cca0" opacity="0.15" transform="rotate(18 75 180)"/>
+            <ellipse cx="50" cy="270" rx="22" ry="35" fill="#c5d5b0" opacity="0.14" transform="rotate(-14 50 270)"/>
+            <ellipse cx="70" cy="340" rx="25" ry="38" fill="#d4e4c4" opacity="0.12" transform="rotate(10 70 340)"/>
+        </svg>
+    </div>
+
+    <!-- Floating leaf particles -->
+    <div class="leaf-particles" id="leafParticles"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-logo">AK</div>
+        <div class="nav-links">
+            <button class="nav-btn active" data-section="hero" id="nav-home">Home</button>
+            <button class="nav-btn" data-section="about" id="nav-about">About</button>
+            <button class="nav-btn" data-section="sports" id="nav-sports">Sports</button>
+            <button class="nav-btn" data-section="hobbies" id="nav-hobbies">Hobbies</button>
+            <button class="nav-btn" data-section="gallery" id="nav-gallery">Gallery</button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="section hero" id="hero">
+            <div class="hero-content">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name">Aadhyan<br><span>Koilada</span></h1>
+                <div class="hero-divider"></div>
+                <p class="hero-tagline">Athlete · Builder · Coder</p>
+                <p class="hero-location">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                        <circle cx="12" cy="10" r="3"/>
+                    </svg>
+                    Coppell, Texas
+                </p>
+            </div>
+            <a href="#about" class="scroll-hint" id="scroll-hint">
+                <span>Scroll to explore</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 5v14M19 12l-7 7-7-7"/>
+                </svg>
+            </a>
+        </section>
+
+        <!-- About Section -->
+        <section class="section" id="about">
+            <div class="section-inner">
+                <div class="section-header">
+                    <span class="section-number">01</span>
+                    <h2>About Me</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="about-grid">
+                    <div class="about-card about-main">
+                        <div class="card-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                                <circle cx="12" cy="7" r="4"/>
+                            </svg>
+                        </div>
+                        <h3>Who I Am</h3>
+                        <p>I'm <strong>Aadhyan Koilada</strong>, a 13-year-old from <strong>Coppell, Texas</strong>. I'm currently at <strong>Coppell Middle School East</strong> heading into <strong>8th grade</strong>. I was born on <strong>June 3, 2013</strong>. I love sports, building, and coding – basically anything that lets me compete or create!</p>
+                    </div>
+                    <div class="about-card about-stat">
+                        <span class="stat-number">13</span>
+                        <span class="stat-label">Years Old</span>
+                    </div>
+                    <div class="about-card about-stat">
+                        <span class="stat-number">8th</span>
+                        <span class="stat-label">Grade</span>
+                    </div>
+                    <div class="about-card about-stat">
+                        <span class="stat-number">TX</span>
+                        <span class="stat-label">Coppell</span>
+                    </div>
+                    <div class="about-card about-stat">
+                        <span class="stat-number">Jun 3</span>
+                        <span class="stat-label">Birthday</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sports Section -->
+        <section class="section" id="sports">
+            <div class="section-inner">
+                <div class="section-header">
+                    <span class="section-number">02</span>
+                    <h2>Sports</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="sports-grid">
+                    <div class="sport-card sport-basketball">
+                        <div class="sport-icon">🏀</div>
+                        <h3>Basketball</h3>
+                        <div class="sport-details">
+                            <div class="detail-row">
+                                <span class="detail-label">Position</span>
+                                <span class="detail-value">Power Forward</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Experience</span>
+                                <span class="detail-value">3 Years</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Team</span>
+                                <span class="detail-value">Recreational (CA)</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Fav Player</span>
+                                <span class="detail-value">Anthony Edwards</span>
+                            </div>
+                        </div>
+                        <p class="sport-note">My main sport – I love the energy and competition on the court.</p>
+                    </div>
+                    <div class="sport-card sport-football">
+                        <div class="sport-icon">🏈</div>
+                        <h3>Flag Football</h3>
+                        <div class="sport-details">
+                            <div class="detail-row">
+                                <span class="detail-label">Position</span>
+                                <span class="detail-value">Lineman</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Experience</span>
+                                <span class="detail-value">1 Year (CA)</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Fav Players</span>
+                                <span class="detail-value">OBJ & Solomon Thomas</span>
+                            </div>
+                        </div>
+                        <p class="sport-note">Played flag football in California – loved the teamwork and intensity.</p>
+                    </div>
+                    <div class="sport-card sport-martial">
+                        <div class="sport-icon">🥋</div>
+                        <h3>Martial Arts</h3>
+                        <div class="sport-details">
+                            <div class="detail-row">
+                                <span class="detail-label">Taekwondo</span>
+                                <span class="detail-value">Purple Belt</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Karate</span>
+                                <span class="detail-value">Yellow Belt</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Achievement</span>
+                                <span class="detail-value">🏆 Black Belt Club Invite</span>
+                            </div>
+                        </div>
+                        <p class="sport-note">Currently training in Taekwondo – invited to the prestigious Black Belt Club!</p>
+                    </div>
+                    <div class="sport-card sport-running">
+                        <div class="sport-icon">🏃</div>
+                        <h3>Cross Country</h3>
+                        <div class="sport-details">
+                            <div class="detail-row">
+                                <span class="detail-label">School</span>
+                                <span class="detail-value">CMS East</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Season</span>
+                                <span class="detail-value">6th Grade</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Status</span>
+                                <span class="detail-value">Might do it again!</span>
+                            </div>
+                        </div>
+                        <p class="sport-note">Ran cross country at school and considering going back.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hobbies Section -->
+        <section class="section" id="hobbies">
+            <div class="section-inner">
+                <div class="section-header">
+                    <span class="section-number">03</span>
+                    <h2>Hobbies & Skills</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="hobbies-grid">
+                    <!-- LEGO Interactive Card -->
+                    <div class="hobby-card hobby-card-interactive" id="lego-card">
+                        <div class="hobby-icon-wrap">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <rect x="3" y="3" width="7" height="7" rx="1"/>
+                                <rect x="14" y="3" width="7" height="7" rx="1"/>
+                                <rect x="3" y="14" width="7" height="7" rx="1"/>
+                                <rect x="14" y="14" width="7" height="7" rx="1"/>
+                            </svg>
+                        </div>
+                        <h3>LEGO Technic</h3>
+                        <p>I really love building with LEGO, especially Technic pieces. There's nothing like putting together a complex build with gears and mechanisms.</p>
+                        <div class="lego-builder" id="legoBuilder">
+                            <p class="interactive-label">🧱 Click to stack bricks!</p>
+                            <div class="lego-canvas" id="legoCanvas"></div>
+                            <button class="lego-reset-btn" id="legoReset">Reset</button>
+                        </div>
+                    </div>
+                    <!-- Scratch Coding Card -->
+                    <div class="hobby-card hobby-card-interactive" id="coding-card">
+                        <div class="hobby-icon-wrap">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <polyline points="16 18 22 12 16 6"/>
+                                <polyline points="8 6 2 12 8 18"/>
+                                <line x1="14" y1="4" x2="10" y2="20"/>
+                            </svg>
+                        </div>
+                        <h3>Scratch Coding</h3>
+                        <p>Learned Scratch coding for a full year. It sparked my interest in programming and creating interactive projects and games.</p>
+                        <div class="code-example">
+                            <div class="code-window">
+                                <div class="code-dots">
+                                    <span class="dot dot-red"></span>
+                                    <span class="dot dot-yellow"></span>
+                                    <span class="dot dot-green"></span>
+                                </div>
+                                <span class="code-title">my_game.py</span>
+                            </div>
+                            <pre class="code-block"><code><span class="code-keyword">def</span> <span class="code-func">play_game</span>():
+    player = <span class="code-string">"Aadhyan"</span>
+    score = <span class="code-number">0</span>
+    <span class="code-keyword">print</span>(<span class="code-string">f"Welcome, {player}!"</span>)
+
+    <span class="code-keyword">while</span> score < <span class="code-number">100</span>:
+        action = get_input()
+        <span class="code-keyword">if</span> action == <span class="code-string">"jump"</span>:
+            score += <span class="code-number">10</span>
+            <span class="code-keyword">print</span>(<span class="code-string">"🏀 Nice move!"</span>)
+
+    <span class="code-keyword">print</span>(<span class="code-string">"You win! 🎉"</span>)
+
+<span class="code-comment"># Let's go!</span>
+play_game()</code></pre>
+                        </div>
+                    </div>
+                    <!-- Recorder Interactive Card -->
+                    <div class="hobby-card hobby-card-interactive" id="recorder-card">
+                        <div class="hobby-icon-wrap">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M9 18V5l12-2v13"/>
+                                <circle cx="6" cy="18" r="3"/>
+                                <circle cx="18" cy="16" r="3"/>
+                            </svg>
+                        </div>
+                        <h3>Recorder</h3>
+                        <p>Played the recorder for 2 years as part of the school music program. Learned to read music and perform with others.</p>
+                        <div class="recorder-interactive" id="recorderInteractive">
+                            <p class="interactive-label">🎵 Click the notes to play!</p>
+                            <div class="recorder-notes">
+                                <button class="note-btn" data-note="C" data-freq="523.25">C</button>
+                                <button class="note-btn" data-note="D" data-freq="587.33">D</button>
+                                <button class="note-btn" data-note="E" data-freq="659.25">E</button>
+                                <button class="note-btn" data-note="F" data-freq="698.46">F</button>
+                                <button class="note-btn" data-note="G" data-freq="783.99">G</button>
+                                <button class="note-btn" data-note="A" data-freq="880.00">A</button>
+                                <button class="note-btn" data-note="B" data-freq="987.77">B</button>
+                            </div>
+                            <div class="note-display" id="noteDisplay">♪</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="section" id="gallery">
+            <div class="section-inner">
+                <div class="section-header">
+                    <span class="section-number">04</span>
+                    <h2>Gallery</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item" id="gallery-ant-edwards">
+                        <div class="gallery-image-wrap">
+                            <img src="images/anthony_edwards.jpg" alt="Anthony Edwards performing a slam dunk" loading="lazy">
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>Anthony Edwards</h3>
+                            <p>My favorite basketball player – the man flies!</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" id="gallery-obj">
+                        <div class="gallery-image-wrap">
+                            <img src="images/odell_beckham.jpg" alt="Odell Beckham Jr making a spectacular catch" loading="lazy">
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>Odell Beckham Jr</h3>
+                            <p>One of my favorite football players – unreal catches!</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" id="gallery-atlantis">
+                        <div class="gallery-image-wrap">
+                            <img src="images/atlantis_hotel.jpg" alt="The Atlantis Hotel in Las Vegas" loading="lazy">
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>Atlantis Hotel – Vegas</h3>
+                            <p>One of my favorite places – absolutely stunning.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <p class="footer-name">Aadhyan Koilada</p>
+                <p class="footer-note">Built with 💚</p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
